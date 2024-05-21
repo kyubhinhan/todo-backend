@@ -10,7 +10,7 @@ const PORT = 3001;
 app.use(cors());
 
 // MongoDB URL. 쿠버네티스 환경에 따라 수정이 필요할 수 있습니다.
-const mongoURL = 'mongodb://service-mydb:27017/todoList';
+const mongoURL = 'mongodb://10.104.102.174:27017/todoList';
 
 // MongoDB 연결
 
